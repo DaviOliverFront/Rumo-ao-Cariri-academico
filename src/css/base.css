@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #FFBD59;
+    height: 18vh;
+    width: 100%;
+}
