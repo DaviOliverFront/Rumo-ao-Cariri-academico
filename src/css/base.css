@@ -1,10 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    
 }
 
-header {
+.body-home{
+    background-image: url('../../public/images/home/fundo-home.jpeg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    min-height: 250vh;
+}
+
+.header-home{
     background-color: #FFBD59;
-    height: 18vh;
+    height: 19vh;
     width: 100%;
+    display: flex;
+    font-family: "Amatic SC", sans-serif;
+    align-items: center;
+    position: relative;
+}
+
+
+#logo {
+    height: 18vh;
+    margin-top: 0.312em;
+    margin-left: 1.562em;
+}
+
+nav{
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 3.125em;
+    padding: 1.775em;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 900;
+    font-size: 5vh;
+    text-decoration: none;
+    display: flex;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s;
+    color: white;
+    font-weight: 900;
+    font-size: 4vh;
+    border: 0.120em solid white;
+    border-radius: 1.625em;
+    padding: 6px 11px;
+    margin-right: 1.125em;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    padding: 150px;
+}
+
+.title{
+    text-align: center;
+}
+
+#sub-title{
+    font-size: 4.5vh;
+    text-align: center;
 }
