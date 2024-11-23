@@ -16,7 +16,7 @@
     min-height: 250vh;
 }
 
-.header-home{
+.header-home,footer{
     background-color: #FFBD59;
     height: 19vh;
     width: 100%;
@@ -26,8 +26,12 @@
     position: relative;
 }
 
+nav.footer-nav {
+    padding-right: 90px;
+}
 
-#logo {
+
+#logo{
     height: 18vh;
     margin-top: 0.312em;
     margin-left: 1.562em;
@@ -51,7 +55,7 @@ nav ul li {
 nav ul li a {
     color: black;
     font-weight: 900;
-    font-size: 5vh;
+    font-size: 7vh;
     text-decoration: none;
     display: flex;
     transition: color 0.3s ease;
@@ -83,11 +87,121 @@ nav ul li a:hover {
     padding: 150px;
 }
 
-.title{
+.title, #sub-title{
     text-align: center;
 }
 
 #sub-title{
     font-size: 4.5vh;
+    padding: 25px;
+}
+
+.section {
+    display: flex;
+    align-items: stretch;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.section p {
+    display: flex;
+    align-items: center;
+    background-color: rgba(249, 231, 206, 0.7);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 22px; 
+    border-radius: 20px;
     text-align: center;
 }
+
+h2,h3{
+    font-family: "Amatic SC", sans-serif;
+}
+
+h2{
+    font-size: 8em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.eventos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 50px ; /* Ajusta o espaço entre as caixas na vertical e horizontal */
+    margin: 50px auto;
+    padding: 0px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    height: 190px;
+    width: 560px;
+    background-color: #F9E7CE;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card h3{
+    color: #FFBD59;
+    font-size: 7vh;
+}
+
+.card p{
+    font-size: 25px;
+}
+
+.cards img {
+    width: 9.375em;
+    height: 9.937em;
+    margin-right: 0.625em;
+}
+
+.cidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.city {
+    width: 100%;
+    max-width: 250px;
+    height: 350px;
+    padding: 12px;
+    border-radius: 13%;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    display: flex; /* Adicionado para centralizar os itens dentro da cidade */
+    flex-direction: column; /* Organiza a imagem e o título em coluna */
+    align-items: center; /* Centraliza os itens */
+}
+
+.city:hover {
+    transform: scale(1.05);
+}
+
+.city-title {
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
