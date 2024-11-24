@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -92,6 +94,7 @@ nav ul li a:hover {
 }
 
 #sub-title{
+    font-family: "Nunito", sans-serif;
     font-size: 4.5vh;
     padding: 25px;
 }
@@ -104,6 +107,7 @@ nav ul li a:hover {
 }
 
 .section p {
+    font-family: "Nunito", sans-serif;
     display: flex;
     align-items: center;
     background-color: rgba(249, 231, 206, 0.7);
@@ -158,6 +162,7 @@ h2{
 }
 
 .card p{
+    font-family: "Nunito", sans-serif;
     font-size: 3.5vh;
 }
 
