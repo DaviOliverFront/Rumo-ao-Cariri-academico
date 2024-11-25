@@ -245,20 +245,18 @@ h2{
     margin-top: 10px;
 }
 
-.card h3{
+.card-gastronomia h3{
     color: #FFBD59;
     font-size: 6vh;
 }
 
-.card p{
+.card-gastronomia p{
     font-family: "Nunito", sans-serif;
     font-size: 3.5vh;
 }
 
-.cards img {
-    height: auto;
-    width: 9.375em;
-    margin-right: 0.625em;
+#img-gastro{
+    border-radius: 15%;
 }
 
 .cidades {
