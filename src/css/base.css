@@ -5,11 +5,9 @@
 *{
     padding: 0;
     margin: 0;
-    
 }
 
-.body-home{
-    background-image: url('../../public/images/home/fundo-home.jpeg');
+.body-home, .body-juazeiro{
     background-size: cover;
     background-position: top center;
     background-attachment: scroll;
@@ -18,7 +16,14 @@
     min-height: 250vh;
 }
 
-.header-home,footer{
+.body-home{
+    background-image: url('../../public/images/home/fundo-home.jpeg');
+}
+.body-juazeiro{
+    background-image: url('../../public/images/juazeiro/body_juazeiro.png');
+}
+
+.header-home,.header-juazeiro,footer{
     background-color: #FFBD59;
     height: 19vh;
     width: 100%;
@@ -31,7 +36,6 @@
 nav.footer-nav {
     padding-right: 90px;
 }
-
 
 #logo{
     height: 18vh;
@@ -89,8 +93,12 @@ nav ul li a:hover {
     padding: 150px;
 }
 
-.title, #sub-title{
+.title, #sub-title, #p1, #p2{
     text-align: center;
+}
+
+#p1{
+    font-size: 4vh;
 }
 
 #sub-title{
@@ -117,7 +125,88 @@ nav ul li a:hover {
     border-radius: 20px;
     text-align: center;
 }
+.section--center {
+    flex-direction: column;
+    align-items: center;
+}
+.section--center img {
+    width: 800px;
+    border-radius: 8px;
+}
 
+.personagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.person {
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    height: auto;
+    padding: 12px;
+    border-radius: 13%;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    display: flex; /* Adicionado para centralizar os itens dentro da cidade */
+    flex-direction: column; /* Organiza a imagem e o título em coluna */
+    align-items: center; /* Centraliza os itens */
+}
+
+.person:hover {
+    transform: scale(1.05);
+}
+
+.perso-title {
+    text-align: center;
+    color: white;
+    font-size: 3.8rem;
+}
+
+.gastronomia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 50px ; 
+    margin: 50px auto;
+    padding: 0px;
+    max-width: 1000px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    height: 210px;
+    width: 500px;
+    background-color: #F9E7CE;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.card h3{
+    font-size: 30px;
+}
+
+.card p{
+    font-size: 27px;
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
 h2,h3{
     font-family: "Amatic SC", sans-serif;
 }
