@@ -300,5 +300,58 @@ a {
     text-decoration: none;
 }
 
+/* estilização dos personagens */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #D56A47;
+    text-align: center;
+}
+
+#h1-prsn, #h2-prsn{
+    font-family: "Amatic SC", sans-serif;
+    color: #F1C40F;
+}
+
+#h1-prsn{
+    font-size: 12vh;
+}
+
+#h2-prsn{
+    font-size: 9vh;
+}
+
+.img_principal, .imagens img {
+
+    padding: 0.937em;
+    border-radius: 8%;
+}
+
+.paragrafo,.lista{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 3.5vh; 
+    color: white; 
+    width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.25em;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+    text-align: center; 
+    list-style-position: inside;
+    
+}
+
+ul li {
+    padding: 0.312em;
+}
+.imagens img{
+    height: 290px;
+    width: 540px;
+}
 
 
