@@ -195,18 +195,23 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 .card h3{
-    font-size: 30px;
+    font-size: 7.5vh;
+    color: #FFBD59;
 }
 
 .card p{
-    font-size: 27px;
+    font-size: 3.5vh;
+}
+
+.card h3, .card p{
+    text-align: start;
 }
 
 .cards img {
     width: 200px;
     height: 200px;
-    margin-right: 10px;
 }
+
 h2,h3{
     font-family: "Amatic SC", sans-serif;
 }
@@ -240,7 +245,7 @@ h2{
     border-radius: 10px;
     height: auto;
     width: 75vh;
-    background-color: #F9E7CE;
+    background-color: #D56A47;
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -248,11 +253,13 @@ h2{
 .card-gastronomia h3{
     color: #FFBD59;
     font-size: 6vh;
+
 }
 
 .card-gastronomia p{
     font-family: "Nunito", sans-serif;
     font-size: 3.5vh;
+    text-align: left;
 }
 
 #img-gastro{
@@ -322,7 +329,6 @@ body{
 }
 
 .img_principal, .imagens img {
-
     padding: 0.937em;
     border-radius: 8%;
 }
@@ -333,9 +339,7 @@ body{
     font-size: 3.5vh; 
     color: white; 
     width: 100%; 
-    margin: 0 auto;
-    text-align: center;
-    padding: 1.25em;
+    margin-top: 3vh; 
 }
 
 ul {
