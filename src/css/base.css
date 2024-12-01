@@ -7,7 +7,7 @@
     margin: 0;
 }
 
-.body-home, .body-juazeiro{
+.body-home,.body-juazeiro,.body-crato{
     background-size: cover;
     background-position: top center;
     background-attachment: scroll;
@@ -22,8 +22,11 @@
 .body-juazeiro{
     background-image: url('../../public/images/juazeiro/body_juazeiro.png');
 }
+.body-crato{
+    background-image: url('../../public/images/crato/background.crato.png');
+}
 
-.header-home,.header-juazeiro,footer{
+.header-global,footer{
     background-color: #FFBD59;
     height: 19vh;
     width: 100%;
@@ -131,6 +134,7 @@ nav ul li a:hover {
 }
 .section--center img {
     width: 800px;
+    height: 445px;
     border-radius: 8px;
 }
 
