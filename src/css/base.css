@@ -330,7 +330,7 @@ body{
 
 .img_principal, .imagens img {
     padding: 0.937em;
-    border-radius: 8%;
+    border-radius: 2em;
 }
 
 .paragrafo,.lista{
@@ -358,9 +358,10 @@ ul li {
     height: 540px;
 }
 
-.imagens-pe{
-    height: 290px;
-    width: 240px;
+.imagens-pe img{
+    height: 320px;
+    width: 640px;
+    border-radius: 1em;
 }
 
 
