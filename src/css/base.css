@@ -353,9 +353,14 @@ ul {
 ul li {
     padding: 0.312em;
 }
-.imagens img{
+
+.img-2{
+    height: 540px;
+}
+
+.imagens-pe{
     height: 290px;
-    width: 540px;
+    width: 240px;
 }
 
 
