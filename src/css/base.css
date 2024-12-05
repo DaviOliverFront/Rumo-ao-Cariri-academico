@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 *{
     padding: 0;
     margin: 0;
 }
 
-.body-home,.body-juazeiro,.body-crato{
+.body-home,.body-juazeiro,.body-crato,.body-barbalha{
     background-size: cover;
     background-position: top center;
     background-attachment: scroll;
@@ -24,6 +22,9 @@
 }
 .body-crato{
     background-image: url('../../public/images/crato/background.crato.png');
+}
+.body-barbalha{
+    background-image: url('../../public/images/barbalha/background_barbalha.png');
 }
 
 .header-global,footer{
@@ -312,8 +313,9 @@ h2{
     align-items: center; /* Centraliza os itens */
 }
 
-.cidades img city{
+.cidades img {
     min-height: 350px;
+    object-fit: cover;
 }
 
 .city:hover {
@@ -370,7 +372,6 @@ ul {
     padding: 0;
     text-align: center; 
     list-style-position: inside;
-    
 }
 
 ul li {
@@ -386,5 +387,3 @@ ul li {
     width: 640px;
     border-radius: 1em;
 }
-
-
