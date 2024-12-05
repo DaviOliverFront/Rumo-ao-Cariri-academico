@@ -253,11 +253,30 @@ h2{
     border-radius: 10px;
     margin-top: 10px;
 }
+/* Pontos turisticos */
+.slider{
+    overflow-x: scroll;
+    width: 65%;
+    margin: 0 auto;
+}
 
+.content{
+    display: flex;
+    width: fit-content;
+}
+
+.content img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    padding: 0.445em;
+    border-radius: 2em;
+}
+
+/* Gastronomia */
 .card-gastronomia h3{
     color: #FFBD59;
     font-size: 6vh;
-
 }
 
 .card-gastronomia p{
