@@ -411,17 +411,26 @@ ul li {
 
 #h1-adm{
     font-size: 12vh;
+    color: #ffffff;
 }
+#h2-adm{
+    font-size: 5vh;
+    margin-right: 7em;
+}
+.formulario h1 h2{
+    align-items: start;
+}
+
 input {
-    padding: 4px;
-    font-size: 1.35rem;
-    height: 2.5rem;
+    font-size: 2vh;
+    height: 6vh;
     border: none;
     border-radius: 9px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 45vh;
 }
 ::placeholder {
-    font-size: 1rem;
+    font-size: 3vh;
     margin-left: 10px;
 }
 
@@ -429,9 +438,9 @@ input {
     font-family: "Amatic SC", sans-serif;
     font-weight: bold;
     background-color: #FFBD59;
-    font-size: 1.75rem;
+    font-size: 4vh;
     margin-top: 2rem;
-    width: 18.125rem;
+    width: 45vh;
 }
 
 .formulario {
