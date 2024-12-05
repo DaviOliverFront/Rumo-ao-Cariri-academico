@@ -108,8 +108,8 @@ nav ul li a:hover {
     padding: 150px;
 }
 
-.title{
-    font-size: 12vh;
+.title-img img{
+    height: 8vh;
 }
 
 .title, #sub-title, #p1, #p2{
@@ -405,10 +405,13 @@ ul li {
 
 /* Administradores */
 
-div {
-    margin-top: 4.10rem;
+#login{
+    margin-top: 10vh;
 }
 
+#h1-adm{
+    font-size: 12vh;
+}
 input {
     padding: 4px;
     font-size: 1.35rem;
