@@ -194,7 +194,7 @@ nav ul li a:hover {
     gap: 10px 50px ; 
     margin: 50px auto;
     padding: 0px;
-    max-width: 1000px;
+    max-width: 90%;
 }
 
 .card {
@@ -261,13 +261,13 @@ h2{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     height: auto;
-    width: 75vh;
+    width: 70vh;
     background-color: #D56A47;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 /* Pontos turisticos */
 .slider{
@@ -292,12 +292,12 @@ h2{
 /* Gastronomia */
 .card-gastronomia h3{
     color: #FFBD59;
-    font-size: 6vh;
+    font-size: 7vh;
 }
 
 .card-gastronomia p{
     font-family: "Nunito", sans-serif;
-    font-size: 3.5vh;
+    font-size: 4vh;
     text-align: left;
 }
 
